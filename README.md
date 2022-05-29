@@ -18,7 +18,7 @@ switch(request.method).case("post", post).case("put", put, (request.PUT.id,)).de
 ``
 Or
 
-```pythonw
+```python
 
 s = switch(request.method)
 s.case("post", post)

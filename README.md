@@ -8,6 +8,8 @@ x = 7
 def say():print('hii')
 def do(action):return action()
 
+# Pass positional args as tuple in the third parameter
+# And dictionary as kwargs in the fourth parameter
 switch(x).case(7, say).case("do", do, (say,)).default(lambda:print('invalid'))
 ```
 Or

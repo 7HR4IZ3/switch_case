@@ -15,7 +15,7 @@ def post():
 # Pass positional args as tuple in the third parameter
 # And dictionary as kwargs in the fourth parameter
 switch(request.method).case("post", post).case("put", put, (request.PUT.id,)).default(get)
-``
+```
 Or
 
 ```python
